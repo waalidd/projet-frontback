@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    image: attaque-des-titans
+    container_name: attaque-des-titans
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
